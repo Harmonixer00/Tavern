@@ -20,7 +20,7 @@ ul{
     padding-top: 25px;
     text-decoration: underline;
 }
-a:hover{
+.navlink:hover{
     text-transform: uppercase;
 }
 nav{
