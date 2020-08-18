@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-a{
+.navlink{
     text-decoration: none;
     border: 0;
     outline: none;
@@ -46,6 +46,7 @@ nav{
     margin: 20px;
     display: flex;
     justify-content: center;
+    color: black;
 }
 .frontpage{
     background-color: rgba(236,201,152,0.7);
@@ -54,8 +55,14 @@ nav{
     position: static;
     opacity: 0.7;
     padding-top: 100px;
-}
-p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}   
+.footer{
+    color: blanchedalmond;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: blanchedalmond;
 }
