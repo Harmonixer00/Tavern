@@ -73,3 +73,20 @@ a{
     position: static;
     bottom: 0;
 }
+/* menu page*/
+#drinkhead{
+    text-align: center;
+    font-family: cursive;
+}
+.draft{
+    border: black;
+    border-style: solid;
+    width: 50%;
+}
+.pdct{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 0;
+}
