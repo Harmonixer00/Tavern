@@ -1,5 +1,5 @@
 html { 
-    background: url(images/TavernBG.jpg) no-repeat center center fixed; 
+    background: url(images/kaylasbg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -65,6 +65,9 @@ a{
     padding-top: 100px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }   
 .footer{
     color: blanchedalmond;
@@ -74,14 +77,22 @@ a{
     bottom: 0;
 }
 /* menu page*/
-#drinkhead{
+.drinkhead{
     text-align: center;
-    font-family: cursive;
+    width:100%;
+}
+.drinkheaders{
+    text-decoration: underline;
 }
 .draft{
     border: black;
     border-style: solid;
     width: 50%;
+}
+.wine{
+    border: black;
+    border-style: solid;
+    width: 40%;
 }
 .pdct{
     display: flex;
