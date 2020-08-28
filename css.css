@@ -49,7 +49,7 @@ a{
 }
 #logo{
     font-family: Caveat;
-    font-size: 45px;
+    font-size: 55px;
     position: relative;
     margin: 20px;
     display: flex;
@@ -65,10 +65,11 @@ a{
     opacity: 0.7;
     padding-top: 100px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: bebas neue, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
 }   
 .footer{
     color: blanchedalmond;
@@ -81,9 +82,12 @@ a{
 .drinkhead{
     text-align: center;
     width:100%;
+    font-size: 50px;
 }
 .drinkheaders{
     text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 0;
 }
 .draft{
     border: black;
@@ -93,12 +97,14 @@ a{
 .wine{
     border: black;
     border-style: solid;
-    width: 40%;
+    width: 45%;
+    ;
 }
 .pdct{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
-    padding-left: 0;
+    padding-left: 10px;
+    font-size: 20px;
 }
