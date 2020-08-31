@@ -86,16 +86,18 @@ a{
 }
 .drinkheaders{
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 0;
 }
 .draft{
     border: black;
+    border-width: thick;
     border-style: solid;
     width: 50%;
 }
 .wine{
     border: black;
+    border-width: thick;
     border-style: solid;
     width: 45%;
     ;
