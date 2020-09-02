@@ -115,6 +115,11 @@ a{
     padding-left: 10px;
     font-size: 20px;
 }
+#specialtyhead{
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: -5%
+}
 .leftspecial{
     width: 50%;
 }
