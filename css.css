@@ -72,7 +72,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }   
 .footer{
     color: blanchedalmond;
@@ -96,7 +96,7 @@ a{
     border: black;
     border-width: thick;
     border-style: solid;
-    width: 50%;
+    width: 45%;
 }
 .wine{
     border: black;
