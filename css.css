@@ -103,7 +103,9 @@ a{
     border-width: thick;
     border-style: solid;
     width: 45%;
-    ;
+}
+.wineital{
+    font-size: 0.75em;
 }
 .pdct{
     display: flex;
