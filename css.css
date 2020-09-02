@@ -113,3 +113,14 @@ a{
     padding-left: 10px;
     font-size: 20px;
 }
+.leftspecial{
+    width: 50%;
+}
+.rightspecial{
+    width: 45%;
+}
+.subheading{
+    font-size: 0.75em;
+    flex-wrap: wrap;
+    font-style: italic;
+}
