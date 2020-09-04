@@ -85,7 +85,8 @@ a{
 .drinkhead{
     text-align: center;
     width:100%;
-    font-size: 50px;
+    font-size: 60px;
+    letter-spacing: 5px;
 }
 .drinkheaders{
     text-decoration: underline;
@@ -118,7 +119,8 @@ a{
 #specialtyhead{
     width: 100%;
     font-size: 35px;
-    margin-bottom: -5%
+    margin-bottom: -5%;
+    text-decoration: underline;
 }
 .leftspecial{
     width: 50%;
