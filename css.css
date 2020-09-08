@@ -60,6 +60,10 @@ a{
     justify-content: center;
     color: black;
     text-decoration: none;
+    text-shadow: 0 0 5px #ffb85bec, 0 0 10px #ffb85bec,
+                 0 0 20px #ffb85bec, 0 0 30px #ffb85bec,
+                 0 0 40px #ffb85bec;
+
 }
 .frontpage{
     background-color: rgba(236,201,152,0.7);
@@ -74,6 +78,7 @@ a{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }   
 .footer{
     color: blanchedalmond;
