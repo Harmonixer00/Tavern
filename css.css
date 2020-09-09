@@ -139,3 +139,12 @@ a{
     flex-wrap: wrap;
     font-style: italic;
 }
+/*Specials*/
+.specialhead{
+    font-size: 4em;
+    letter-spacing: 1px;
+    margin-bottom: 0%;
+}
+.specialhead2{
+    display:flex;
+}
