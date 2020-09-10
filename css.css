@@ -1,38 +1,38 @@
-html { 
-    background: url(images/kaylasbg.jpg) no-repeat center center fixed; 
+html {  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background: url(images/kaylasbg.jpg) no-repeat center center fixed;
     background-size: cover;
-  }
+}
 body{
     height: 100%;
     margin-left: 0px;
 }
 #bg{
-    height: 100%;
-    background-position: center;  
+    background-position: center; 
+    height: 100%; 
 }
 nav{
+    background-color: #8c4d2e;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    background-color: #8c4d2e;
+    opacity: 1;
     overflow: hidden;
+    padding-bottom: 10px;
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 1;
-    padding-bottom: 10px;
     z-index: 1;
 }
 .navlink{
-    text-decoration: none;
     border: 0;
-    outline: none;
     color: black;
     letter-spacing: 5px;
-    text-decoration: underline;
+    outline: none;
     transition: .3s ease;
+    text-decoration: none;
+    text-decoration: underline;
 }
 .navlink:hover{
     -webkit-transform: scale(1.3);
@@ -41,24 +41,24 @@ nav{
     transition-duration: 0.3s;
 }
 ul{
-    list-style: none;
-    margin:0;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    list-style: none;
+    margin:0;
     padding-top: 25px;
 }
 a{
     color: blanchedalmond;
 }
 #logo{
+    color: black;
+    display: flex;
     font-family: Caveat;
     font-size: 55px;
-    position: relative;
-    margin: 20px;
-    display: flex;
     justify-content: center;
-    color: black;
+    margin: 20px;
+    position: relative;
     text-decoration: none;
     text-shadow: 0 0 5px #ffb85bec, 0 0 10px #ffb85bec,
                  0 0 20px #ffb85bec, 0 0 30px #ffb85bec,
@@ -67,48 +67,46 @@ a{
 }
 .frontpage{
     background-color: rgba(236,201,152,0.7);
-    padding: 70px;
-    margin:50px;
-    position: static;
-    opacity: 0.7;
-    padding-top: 100px;
-    text-align: center;
-    font-family: bebas neue, Helvetica, sans-serif;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
+    font-family: bebas neue, Helvetica, sans-serif;
     justify-content: space-evenly;
-    
+    margin:50px;
+    opacity: 0.7;
+    padding: 70px;
+    position: static;
+    text-align: center;
 }   
 .footer{
+    bottom: 0;
     color: blanchedalmond;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     position: static;
-    bottom: 0;
+    text-align: center;
 }
 /* menu page*/
 .drinkhead{
-    text-align: center;
-    width:100%;
     font-size: 60px;
     letter-spacing: 5px;
+    text-align: center;
+    width:100%;
 }
 .drinkheaders{
-    text-decoration: underline;
     font-size: 35px;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 .draft{
     border: black;
-    border-width: thick;
     border-style: solid;
+    border-width: thick;
     width: 45%;
 }
 .wine{
     border: black;
-    border-width: thick;
     border-style: solid;
+    border-width: thick;
     width: 45%;
 }
 .wineital{
@@ -118,15 +116,17 @@ a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    text-align: left;
-    padding-left: 10px;
     font-size: 20px;
+    padding-left: 10px;
+    text-align: left;
+
+
 }
 #specialtyhead{
-    width: 100%;
     font-size: 35px;
     margin-bottom: -5%;
     text-decoration: underline;
+    width: 100%;
 }
 .leftspecial{
     width: 50%;
@@ -135,8 +135,8 @@ a{
     width: 45%;
 }
 .subheading{
-    font-size: 0.75em;
     flex-wrap: wrap;
+    font-size: 0.75em;
     font-style: italic;
 }
 /*Specials*/
@@ -144,7 +144,4 @@ a{
     font-size: 4em;
     letter-spacing: 1px;
     margin-bottom: 0%;
-}
-.specialhead2{
-    display:flex;
 }
