@@ -97,6 +97,10 @@ a{
     margin-bottom: 0;
     text-decoration: underline;
 }
+.prices{
+    float: right;
+    margin-right: 0.5em;
+}
 .draft{
     border: black;
     border-style: solid;
