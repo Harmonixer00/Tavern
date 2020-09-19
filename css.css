@@ -47,7 +47,7 @@ ul{
     margin:0;
     padding-top: 25px;
 }
-a{
+.footlink{
     color: blanchedalmond;
 }
 #logo{
@@ -148,4 +148,14 @@ a{
     font-size: 4em;
     letter-spacing: 1px;
     margin-bottom: 0%;
+}
+/*Find Us page*/
+.fa{
+    display: inline-flex;
+    padding: 20px;
+    font-size-adjust: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
