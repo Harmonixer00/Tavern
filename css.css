@@ -161,8 +161,10 @@ ul{
 }
 .social{
     display: flex;
-    justify-content: ;
-    margin-top: 200px;
+    flex-direction: row;
+    font-size: 2em;
+    justify-content: space-between;
+    margin-top: 100px;
     padding-bottom: 200px;
 }
 .fa:hover {
