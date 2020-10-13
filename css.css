@@ -146,8 +146,13 @@ ul{
 .specialhead{
     font-size: 4em;
     letter-spacing: 1px;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
 }
+.headers{
+    font-size: 3em;
+    width: 100%;
+}
+
 /*Find Us page*/
 .fa{
     display: inline-flex;
