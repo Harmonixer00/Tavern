@@ -199,3 +199,21 @@ ul{
     background: #bb0000;
     color: white;
   }
+  ul.pdct {
+    max-width: 40em;
+    overflow-x: hidden;
+    list-style: none}
+ul.pdct li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+ul.pdct span:first-child {
+    padding-right: 0.33em;
+}
+ul.pdct span + span {
+    float: right;
+}
