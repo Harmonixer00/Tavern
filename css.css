@@ -59,8 +59,10 @@ ul{
     margin: 20px;
     position: relative;
     text-decoration: none;
-    text-shadow: 0 0 5px #ffb85bec, 0 0 10px #ffb85bec,
-                 0 0 20px #ffb85bec, 0 0 30px #ffb85bec,
+    text-shadow: 0 0 5px #ffb85bec, 
+                 0 0 10px #ffb85bec,
+                 0 0 20px #ffb85bec, 
+                 0 0 30px #ffb85bec,
                  0 0 40px #ffb85bec;
 
 }
