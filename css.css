@@ -121,12 +121,16 @@ ul{
     border-style: solid;
     border-width: thick;
     width: 45%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 .wine{
     border: black;
     border-style: solid;
     border-width: thick;
     width: 45%;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .wineital{
     font-size: 0.75em;
