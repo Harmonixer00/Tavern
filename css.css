@@ -47,9 +47,7 @@ ul{
     margin:0;
     padding-top: 25px;
 }
-.footlink{
-    color: blanchedalmond;
-}
+
 #logo{
     color: black;
     display: flex;
@@ -99,6 +97,9 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
     position: static;
     text-align: center;
+}
+.footer a:visited{
+    color:blanchedalmond;
 }
 /* menu page*/
 .drinkhead{
