@@ -47,9 +47,7 @@ ul{
     margin:0;
     padding-top: 25px;
 }
-.footlink{
-    color: blanchedalmond;
-}
+
 #logo{
     color: black;
     display: flex;
@@ -101,7 +99,11 @@ ul{
     text-align: center;
 }
 .footer a:visited{
+<<<<<<< HEAD
     color: blanchedalmond;
+=======
+    color:blanchedalmond;
+>>>>>>> d99be33caa60176ded9185692596fb8a012a278b
 }
 /* menu page*/
 .drinkhead{
